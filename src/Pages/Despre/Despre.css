@@ -1,0 +1,52 @@
+.Despre{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top: 6rem;
+}
+
+.DespreTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    color:#EB6262;
+    z-index: 5;
+}
+
+
+.DespreSection{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 60vh;
+    margin: 3rem 5%;
+    overflow: hidden;
+}
+
+.TeamImage{
+    width: 40%;
+    height: 80%;
+    background: url('./Images/Tortzinastere.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.FlexReverse{
+    flex-direction: row-reverse;
+}
+
+.DespreText{
+    width: 40%;
+    height: 90%;
+    z-index: 2;
+}
+
+.DespreSVG_BG{
+    position: absolute;
+    left: 0;
+    bottom: -3rem;
+    width: 100%;
+}

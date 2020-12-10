@@ -1,0 +1,187 @@
+.Acasa{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    color:#fff;
+    margin-bottom: 10vh;
+    overflow: hidden;
+}
+
+.Section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Links{
+    text-decoration: none;
+}
+
+.AcasaSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Images/bghome.jpg') top no-repeat;
+    background-size: cover;
+}
+
+.AcasaTitle{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.AcasaMiniTitle{
+    font-size: 4rem;
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+
+.AcasaText{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.DespreAcasaBackground{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('./Images/pozadulceamarui.jpg') left no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.DespreButton{
+    margin-top: 2rem;
+}
+
+.VerticalBezierCurve{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.TextSection{
+    position: absolute;
+    left: 5%;
+    top: 8rem;
+    width: 35%;
+    height: 70%;
+    z-index: 5;
+}
+.RectangleR{
+    width:100%;
+    height: 15vh;
+    background-color:#EB6262;
+}
+
+
+.HorizontalBezierCurve{
+    width:100%;
+}
+
+.MiniTitleProduse{
+    position: absolute;
+    top:4.5rem;
+    left:10%;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 70vh;
+    margin-left:10%;
+}
+
+.CardComponent{
+    position: relative;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color:#f4f4f4;
+    position: relative;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.CardComponent:hover{
+    top:-10px;
+}
+
+
+.CardComponent img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.OverLapHome{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: #000;
+    opacity: 0.25;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.CardTitle{
+    padding-top: 1rem;
+    width: 100%;
+    text-align: center;
+    color:#464646;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.CardTitle:hover{
+    color:#EB6262;
+}
+.CardText{
+    width: 80%;
+    padding-left: 10%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    color:#8d8d8d;
+}
+
+
+@media(max-width:500px){
+    .AcasaTitle{
+        font-size: 2.8rem;
+    }
+    .AcasaText{
+        font-size: 1.2rem;
+    }
+    .DespreAcasaBackground{
+        width: 100%;
+        background: #222222;
+    }
+    .VerticalBezierCurve{
+        display: none;
+    }
+    .TextSection{
+        width: 80%;
+    }
+
+    .RectangleR{
+        height: 25vh;
+    }
+
+    .CardContainer{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200vh;
+    }
+    .CardComponent{
+        width: 100%;
+        height: 30%;
+        overflow: hidden;
+    }
+
+}

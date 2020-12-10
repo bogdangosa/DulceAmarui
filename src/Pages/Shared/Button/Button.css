@@ -1,0 +1,19 @@
+.Button{
+    padding: 0.5rem 2rem;
+    color: #fff;
+    width: 10rem;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s ease;
+    border: 3px solid #fff;
+}
+.Button p{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.Button:hover{
+    background:#fff;
+    color: #EB6262;
+}
